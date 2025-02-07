@@ -4,3 +4,30 @@
 nav {
     background-color: #9BC1BC;
 }
+
+/*Hero-Section*/ 
+
+#Hero-Section {
+    background-image: url(../img/bg.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+
+  #Hero-Section p {
+    background-color: #9BC1BC; /* Color de fondo */
+    color: #f8f9fa; /* Color del texto para buen contraste */
+    padding: 15px; 
+    border-radius: 10px; 
+    display: inline-block; 
+    max-width: 90%; 
+    text-align: justify; 
+    }
+
+  #Contacto {
+    background-color: #9BC1BC;
+  }
+
+  #Contacto:hover {
+    background-color: #7da3a1;
+  }
