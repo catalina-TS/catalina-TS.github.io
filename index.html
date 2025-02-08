@@ -11,39 +11,41 @@
 </head>
 
 <body>
+    <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="assets/img/logo-white.png" class="img-fluid">
+                <img src="assets/img/logo-white.png" class="img-fluid" alt="Logo personal">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de mí</a>
+                        <a class="nav-link" href="#Acerca-de-mi">Acerca de mí</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Educación</a>
+                        <a class="nav-link" href="#Educacion">Educación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Experiencia</a>
+                        <a class="nav-link" href="#Experiencia">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portafolio</a>
+                        <a class="nav-link" href="#Portafolio">Portafolio</a>
                     </li>
-
                 </ul>
-
             </div>
         </div>
     </nav>
+
+    <!-- Sección Hero -->
     <header id="Hero-Section" class="text-light py-5 mt-3">
         <div class="container">
             <div class="row align-items-center">
-                <!-- Columna de texto -->
                 <div class="col-12 col-md-7 text-md-start text-center">
                     <h1 class="display-4 fw-bold my-5">
                         Narrativas culturales, <br> Territorios digitales
@@ -54,19 +56,22 @@
                         convierten en un campo fértil donde los saberes se reconfiguran y las culturas se reescriben,
                         abriendo nuevas posibilidades de conexión y transformación.
                     </p>
-                    <div class="mb-5 pb-5">
-                        <button id="Contacto" class="btn btn-lg btn-custom text-light my-4">Contacto</button>
-                    </div>
+                    <a href="#Contactame">
+                        <button class="btn btn-lg btn-custom text-light my-4">
+                            Contacto
+                        </button>
+                    </a>
                 </div>
-                <!-- Columna de imagen -->
                 <div class="col-12 col-md-5 text-center">
-                    <img src="./assets/img/img_yo.jpg" alt="Imagen representativa" class="img-fluid rounded-circle"
-                        style="max-width: 300px;">
+                    <img src="./assets/img/img_yo.jpg" alt="Fotografía de perfil profesional" 
+                         class="img-fluid rounded-circle" style="max-width: 300px;">
                 </div>
             </div>
         </div>
     </header>
+
     <main>
+        <!-- Sección Acerca de mí -->
         <section id="Acerca-de-mi" class="container text-center my-5">
             <h2 class="display-3 fw-bold my-4">Acerca de mí</h2>
             <p class="my-4">
@@ -76,8 +81,8 @@
                 investigación social. Actualmente, me encuentro ampliando mis competencias tecnológicas y metodológicas
                 para fortalecer mi capacidad de abordar desafíos desde una perspectiva interdisciplinaria.
             </p>
-            <div class="row">
 
+            <div class="row">
                 <!-- Tarjeta de Educación -->
                 <div class="col-12 col-md-6 mb-4">
                     <i class="fa-regular fa-handshake fa-3x my-3"></i>
@@ -117,11 +122,11 @@
                             <h5 class="card-title">Experiencia</h5>
                             <p class="card-text text-justify">
                                 A continuación, detallo algunas de las experiencias laborales y proyectos significativos
-                                en los que he participado, los cuales han enriquecido mi desarrollo profesional:
+                                en los que he participado:
                             </p>
                             <ul class="list-unstyled p-0">
                                 <li class="mb-3 d-block text-justify">
-                                    <strong>Proyecto de Métodologías Participativas</strong>
+                                    <strong>Proyecto de Metodologías Participativas</strong>
                                     Participación en un proyecto centrado en la aplicación de metodologías
                                     participativas para el análisis y resolución de problemáticas sociales, con énfasis
                                     en la colaboración directa con las comunidades.
@@ -129,14 +134,12 @@
                                 <li class="mb-3 d-block text-justify">
                                     <strong>Asistente Educativa en la Cátedra de Métodos Cualitativos</strong>
                                     Colaboración activa en la cátedra de Métodos Cualitativos, apoyando en la
-                                    organización de clases, tutorías y el desarrollo de actividades educativas para
-                                    estudiantes de ciencias sociales.
+                                    organización de clases, tutorías y el desarrollo de actividades educativas.
                                 </li>
                                 <li class="d-block text-justify">
                                     <strong>Práctica Profesional en Orbe Consultores Ambiental</strong>
                                     Realización de práctica profesional en consultora ambiental, donde adquirí
-                                    experiencia en investigación de impacto ambiental, desarrollo de proyectos y
-                                    análisis de datos relacionados con el sector ambiental.
+                                    experiencia en investigación de impacto ambiental y desarrollo de proyectos.
                                 </li>
                             </ul>
                         </div>
@@ -144,33 +147,31 @@
                 </div>
             </div>
         </section>
-        <section class="target-gallery mt-4 mb-5">
 
-            <div class="container px-3 px-lg-0">
-                <h2 class="display-3 fw-bold text-center my-4">Portafolio</h2>
-
+        <!-- Sección Portafolio -->
+        <section id="Portafolio" class="target-gallery mt-4 mb-5">
+            <div class="container px-3 px-lg-0 py-4">
+                <h2 class="display-3 fw-bold text-light text-center my-4">Portafolio</h2>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <!-- Primera fila de productos -->
-                    <!-- Producto 1 -->
+                    <!-- Proyecto 1 -->
                     <div class="col">
-                        <div class="card h-100  mx-1">
+                        <div class="card h-100 mx-1">
                             <img src="./assets/img/Curriculum de Catalina Tolvett.png" class="card-img-top"
-                                alt=" Plumón coral fleece ofrecido por Plumones Manolino">
+                                 alt="Vista previa del Curriculum Vitae en HTML">
                             <div class="card-body">
                                 <h5 class="card-text-1 lh-sm mb-2">Curriculum Vitae en HTML</h5>
                                 <p class="card-text-2 mb-0">Este proyecto consiste en la creación de un Curriculum Vitae
                                     en HTML, donde se presenta de forma clara y ordenada mi información personal,
                                     educación, experiencia laboral y habilidades técnicas.</p>
-
                             </div>
                         </div>
                     </div>
 
-                    <!-- Producto 2 -->
+                    <!-- Proyecto 2 -->
                     <div class="col">
                         <div class="card h-100 mx-2">
                             <img src="./assets/img/PixelNostalgia.png" class="card-img-top"
-                                alt="Entrada para compartir, platos de fondo, postres y bebestibles ofrecido por V for Vegan">
+                                 alt="Vista previa de la landing page Pixel Nostalgia">
                             <div class="card-body">
                                 <h5 class="card-text-1 lh-sm mb-2">Landing Page "Pixel Nostalgia"</h5>
                                 <p class="card-text-2 mb-0">La landing page "Pixel Nostalgia" es un proyecto en el que
@@ -180,11 +181,11 @@
                         </div>
                     </div>
 
-                    <!-- Producto 3 -->
+                    <!-- Proyecto 3 -->
                     <div class="col">
                         <div class="card h-100 mx-2">
                             <img src="./assets/img/Iguana Page.png" class="card-img-top"
-                                alt="Evaluación integral, blanqueamiento dental led, limpieza y fluoración ofrecido por Clínica dental Quijada">
+                                 alt="Vista previa de la página informativa sobre iguanas">
                             <div class="card-body">
                                 <h5 class="card-text-1 lh-sm mb-2">Iguana Page: Infografía Online</h5>
                                 <p class="card-text-2 mb-0">"Iguana Page" es una infografía en línea que presenta
@@ -194,82 +195,86 @@
                         </div>
                     </div>
 
-                    <!-- Segunda fila de productos -->
-
-                    <!-- Producto 4 -->
+                    <!-- Proyecto 4 -->
                     <div class="col">
                         <div class="card h-100 mx-2">
                             <img src="./assets/img/Cuppon.png" class="card-img-top"
-                                alt="Colación para 2 personas y postre ofrecido por Suricata almacen">
+                                 alt="Vista previa del proyecto Cuppon con sistema de grillas">
                             <div class="card-body">
-                                <h5 class="card-text-1 lh-sm mb-2">Cuppon: Implementación de Sistema de Grillas con
-                                    Bootstrap</h5>
+                                <h5 class="card-text-1 lh-sm mb-2">Cuppon: Implementación de Sistema de Grillas</h5>
                                 <p class="card-text-2 mb-0">En este proyecto, implementé un sistema de grillas
                                     utilizando Bootstrap para crear una página web adaptable.</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Producto 5 -->
+                    <!-- Proyecto 5 -->
                     <div class="col">
                         <div class="card h-100 mx-2">
                             <img src="./assets/img/Catalina Tolvett CV Plantilla.png" class="card-img-top"
-                                alt="Tickets para Stukids Centro de Eventos ofrecido por Stukids Centro de Eventos">
+                                 alt="Vista previa del proyecto de control de versiones en GitHub">
                             <div class="card-body">
                                 <h5 class="card-text-1 lh-sm mb-2">GitHub: Control de Versiones</h5>
                                 <p class="card-text-2 mb-0">Este proyecto consiste en aplicar las etapas del
-                                    versionamiento con Git. También
-                                    de subida del código versionado mediante una conexión
+                                    versionamiento con Git y la subida del código versionado mediante una conexión
                                     SSH para el repositorio remoto en GitHub.</p>
-
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
+
+        <!-- Sección Contacto -->
         <section id="Contactame" class="w-100 my-5">
             <div class="container py-4">
                 <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
-        
+                
                 <p class="text-center my-4 d-none d-md-block">
-                    Si tienes preguntas, necesitas más información sobre mi trabajo o quieres colaborar en proyectos relacionados con antropología digital, metodologías cualitativas o participación comunitaria, no dudes en ponerte en contacto. Estoy disponible para responder tus inquietudes y explorar nuevas oportunidades de trabajo conjunto. ¡Hablemos!
+                    Si tienes preguntas, necesitas más información sobre mi trabajo o quieres colaborar en proyectos 
+                    relacionados con antropología digital, metodologías cualitativas o participación comunitaria, 
+                    no dudes en ponerte en contacto. Estoy disponible para responder tus inquietudes y explorar 
+                    nuevas oportunidades de trabajo conjunto. ¡Hablemos!
                 </p>
-        
+                
                 <form>
                     <div class="form-group mb-4">
                         <label class="mb-2">Nombre</label>
                         <input class="form-control" placeholder="Nombre">
                     </div>
-        
+                    
                     <div class="form-group mb-4">
                         <label class="mb-2">Correo electrónico</label>
-                        <input class="form-control" placeholder="Correo electrónico" />
+                        <input class="form-control" placeholder="Correo electrónico" type="email">
                     </div>
-        
+                    
                     <div class="form-group mb-4">
                         <label class="mb-2">Número telefónico</label>
-                        <input class="form-control" placeholder="Número telefónico" />
+                        <input class="form-control" placeholder="Número telefónico" type="tel">
                     </div>
-        
+                    
                     <div class="form-group">
                         <label class="mb-2">Mensaje</label>
-                        <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+                        <textarea class="form-control" placeholder="Escribe aquí tu mensaje" rows="4"></textarea>
                     </div>
-        
+                    
                     <div class="my-3 text-end">
-                        <button class="btn btn-dark text-light">Enviar</button>
+                        <button type="submit" class="btn btn-dark text-light">Enviar</button>
                     </div>
                 </form>
             </div>
         </section>
-
     </main>
-    <footer></footer>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-light p-4">
+        <p class="mb-0">Catalina Tolvett 2025. &copy; Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
